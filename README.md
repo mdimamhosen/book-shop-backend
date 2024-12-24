@@ -141,8 +141,6 @@ project-root
    git clone https://github.com/mdimamhosen/book-shop-backend.git
 ```
 
-````
-
 2. Navigate to the project directory:
 
    ```bash
@@ -200,5 +198,6 @@ project-root
 
 For any questions or support, feel free to contact me via [mdimam.cse9.bu@gmail.com].
 
+```
 
-````
+```
