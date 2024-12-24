@@ -197,7 +197,3 @@ project-root
 ## Contact
 
 For any questions or support, feel free to contact me via [mdimam.cse9.bu@gmail.com].
-
-```
-
-```
