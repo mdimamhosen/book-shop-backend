@@ -158,6 +158,8 @@ project-root
    ```env
    PORT=5000
    DB_URI=<your_mongo_db_connection_string>
+   NODE_ENV=
+   BCRYPT_SALT=
    ```
 
 5. Start the development server:
