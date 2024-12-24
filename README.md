@@ -137,9 +137,9 @@ project-root
 
 1. Clone the repository:
 
-   ```bash
-   git clone <https://github.com/mdimamhosen/book-shop-backend.git>
-   ```
+```bash
+   git clone https://github.com/mdimamhosen/book-shop-backend.git
+```
 
 ````
 
