@@ -93,6 +93,16 @@ project-root
 2. **Get All Books**
    `GET /api/products`
 
+   - **Response**: A list of all books with details like name, author, price, category, etc.
+   - **Query**: You can filter books by category, title, any word form the description or author by using a query parameter:
+     Example: `/api/products?searchTerm=category`
+     - `searchTerm` can be any of the following:
+       - `category` (e.g., "fiction", "science")
+       - `title` (e.g., "The Great Gatsby")
+       - `author name` (e.g., "J.K. Rowling")
+       - `any word from description` (e.g., "Story of a magician")
+     - The query will return a list of books matching the provided search term.
+
 3. **Get a Book**
    `GET /api/products/:productId`
 
@@ -128,7 +138,7 @@ project-root
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/mdimamhosen/book-shop-backend.git>
    ```
 
 ````
@@ -136,7 +146,7 @@ project-root
 2. Navigate to the project directory:
 
    ```bash
-   cd project-name
+   cd book-shop-backend
    ```
 
 3. Install dependencies:
